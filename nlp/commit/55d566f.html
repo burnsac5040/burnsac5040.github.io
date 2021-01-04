@@ -1,0 +1,52 @@
+<!doctype html>
+<link rel="stylesheet" href="../../style.css">
+<title>nlp :: 55d566f</title>
+<h1><a href="../index.html" title="Back to Repository">&larr;&#xFE0E;</a> nlp :: 55d566f</h1>
+<hr>
+<table id="main" cellpadding="0" cellspacing="0">
+<tr class="item"><td class="linenumber"><a href="#l1" name="l1">1</a></td><td><pre><span class="commit">commit 55d566f10a3635083f47c81e625d4300989ba72f</span><span class="commit"> (</span><span class="reference">HEAD -&gt; </span><span class="branch">master</span><span class="commit">, </span><span class="remote">origin/master</span><span class="commit">, </span><span class="remote">origin/HEAD</span><span class="commit">)</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l2" name="l2">2</a></td><td><pre>Author: burnsac5040 &lt;burnsac@me.com&gt;</pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l3" name="l3">3</a></td><td><pre>Date:   Tue Dec 29 14:38:57 2020 -0600</pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l4" name="l4">4</a></td><td><pre></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l5" name="l5">5</a></td><td><pre>    edited readme</pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l6" name="l6">6</a></td><td><pre>---</pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l7" name="l7">7</a></td><td><pre> README.md | 16 <span class="insertion">++++++</span><span class="deletion">----------</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l8" name="l8">8</a></td><td><pre> 1 file changed, 6 insertions(+), 10 deletions(-)</pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l9" name="l9">9</a></td><td><pre></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l10" name="l10">10</a></td><td><pre><span class="bold">diff --git a/README.md b/README.md</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l11" name="l11">11</a></td><td><pre><span class="bold">index ca1fb78..73830b4 100644</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l12" name="l12">12</a></td><td><pre><span class="bold">--- a/README.md</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l13" name="l13">13</a></td><td><pre><span class="bold">+++ b/README.md</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l14" name="l14">14</a></td><td><pre><span class="hunk">@@ -1,5 +1,4 @@</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l15" name="l15">15</a></td><td><pre><span class="deletion">-## Stock Sentiment Analysis</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l16" name="l16">16</a></td><td><pre><span class="deletion">-**(November 16, 2020)**</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l17" name="l17">17</a></td><td><pre><span class="insertion">+</span><span class="insertion">## [Stock Sentiment Analysis](stock-sentiment)</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l18" name="l18">18</a></td><td><pre> I wanted to try and do something with Natural Language Processing, so I found a website that compiles news articles about stocks [tingo](https://www.tiingo.com) and used `nltk`'s `SentimentIntensityAnalyzer`, as well as `TextBlob`'s `.sentiment` tool.</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l19" name="l19">19</a></td><td><pre> </span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l20" name="l20">20</a></td><td><pre> - **NLTK Sentiment Analysis**: </span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l21" name="l21">21</a></td><td><pre><span class="hunk">@@ -13,18 +12,15 @@</span> </span>The graphs are made using `plotly`, which don't load on github.  So I would past</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l22" name="l22">22</a></td><td><pre> </span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l23" name="l23">23</a></td><td><pre> I would've also used `seaborn` but I was unable to figure out how to plot the charts side by side, or how to plot a dataframe without specifying an x or y.  I want `x` to = `date` or `dayofweek` and `y` to = the values, and then color (`hue`) the chart based on the `ticker`.</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l24" name="l24">24</a></td><td><pre> </span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l25" name="l25">25</a></td><td><pre><span class="deletion">-## Twitter Sentiment Analysis</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l26" name="l26">26</a></td><td><pre><span class="deletion">-**(November 18, 2020)**</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l27" name="l27">27</a></td><td><pre><span class="insertion">+</span><span class="insertion">## [Twitter Sentiment Analysis](twitter-sentiment)</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l28" name="l28">28</a></td><td><pre> This is a sentiment analysis done on tweets containing the phrase 'great reset' using `TextBlob`.  I decided to do it on this topic because I saw that it was trending on Twitter a couple of days ago and thought that it would be controversial enough to get a wide variety of opinions.</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l29" name="l29">29</a></td><td><pre> </span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l30" name="l30">30</a></td><td><pre> #### CSV Files</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l31" name="l31">31</a></td><td><pre><span class="deletion">-- 'great-reset-2000.csv' = CSV of 2000 tweets containing the phrase 'great reset'</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l32" name="l32">32</a></td><td><pre><span class="deletion">-- 'vote-fraud-1000.csv' = CSV of 1000 tweets containing the phrase 'voter fraud'</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l33" name="l33">33</a></td><td><pre><span class="deletion">-- 'practice.csv' = CSV of 100 of Donald Trump's tweets to practice with</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l34" name="l34">34</a></td><td><pre><span class="deletion">-</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l35" name="l35">35</a></td><td><pre><span class="deletion">-## Reddit News Headlines and the Post's Comments</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l36" name="l36">36</a></td><td><pre><span class="deletion">-**(November 26, 2020)**</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l37" name="l37">37</a></td><td><pre><span class="insertion">+</span><span class="insertion">- [great-reset-2000.csv](twitter-sentiment/csv/great-reset-2000.csv) = CSV of 2000 tweets containing the phrase 'great reset'</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l38" name="l38">38</a></td><td><pre><span class="insertion">+</span><span class="insertion">- [vote-fraud-1000.csv](twitter-sentiment/csv/vote-fraud-1000.csv) = CSV of 1000 tweets containing the phrase 'voter fraud'</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l39" name="l39">39</a></td><td><pre><span class="insertion">+</span><span class="insertion">- [practice.csv](twitter-sentiment/csv/practice.csv) = CSV of 100 of Donald Trump's tweets to practice with</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l40" name="l40">40</a></td><td><pre> </span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l41" name="l41">41</a></td><td><pre><span class="insertion">+</span><span class="insertion">## [Reddit News Headlines and the Post's Comments](reddit-headlines)</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l42" name="l42">42</a></td><td><pre> `NLTK` was used to perform sentiment analysis of the headline title, as well as performing sentiment analysis on the comments about the headlines.</span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l43" name="l43">43</a></td><td><pre> </span></pre></td></tr>
+<tr class="item"><td class="linenumber"><a href="#l44" name="l44">44</a></td><td><pre> I analyzed the number of words in the headlines and comments, along with the length of the words.  I also analyzed the profanity found in negative vs positive comments and a little bit more.</span></pre></td></tr>
+</table>
+<div id="footer">site generated by <a href="https://github.com/acidvegas/stagit" target="_blank">stagit</a> on <a href="#">01/03/21</a></div>
